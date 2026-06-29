@@ -1,0 +1,89 @@
+# Acknowledgements
+
+This file contains acknowledgements for the open-source software, libraries, and copyrighted content used in the Docflow project. We are grateful to the authors and contributors of these projects.
+
+## Frontend Dependencies
+The frontend of Docflow uses the following open-source libraries:
+
+*   **React & React-DOM**
+    License: MIT
+    Copyright (c) Meta Platforms, Inc. and affiliates.
+
+*   **Vite**
+    License: MIT
+    Copyright (c) 2019-present, Yuxi (Evan) You and Vite contributors
+
+*   **Tailwind CSS**
+    License: MIT
+    Copyright (c) Tailwind Labs, Inc.
+
+*   **pdf.js (pdfjs-dist)**
+    License: Apache License 2.0
+    Copyright 2012 Mozilla Foundation
+
+*   **pdf-lib**
+    License: MIT
+    Copyright (c) 2019 Andrew Dillon
+
+*   **@hello-pangea/dnd**
+    License: MIT
+    Copyright (c) 2022 hello-pangea
+
+*   **ESLint**
+    License: MIT
+    Copyright OpenJS Foundation and other contributors
+
+*   **PostCSS & Autoprefixer**
+    License: MIT
+    Copyright 2013 Andrey Sitnik <andrey@sitnik.ru>
+
+## Backend Dependencies
+The backend of Docflow uses the following open-source libraries:
+
+*   **Flask & Werkzeug**
+    License: BSD 3-Clause "New" or "Revised" License
+    Copyright (c) 2010 pallets
+
+*   **Flask-CORS**
+    License: MIT
+    Copyright (c) 2016 Cory Dolphin
+
+*   **pypdf**
+    License: BSD 3-Clause
+    Copyright (c) 2006-2023, Mathieu Fenniak and pypdf contributors
+
+*   **PyMuPDF**
+    License: GNU AGPL v3.0 (and Commercial)
+    Copyright (c) 2023 Artifex Software, Inc.
+
+*   **pdf2image**
+    License: MIT
+    Copyright (c) 2017 Edouard Belval
+
+*   **Pillow**
+    License: Historical Permission Notice and Disclaimer (HPND)
+    Copyright (c) 1997-2011 by Secret Labs AB, 1995-2011 by Fredrik Lundh
+
+*   **pdf2docx**
+    License: GNU GPL v3.0
+    Copyright (c) 2020 DzinX
+
+*   **python-pptx**
+    License: MIT
+    Copyright (c) 2013 Steve Canny, https://github.com/scanny
+
+*   **pdfplumber**
+    License: MIT
+    Copyright (c) 2015 Jeremy Singer-Vine
+
+*   **openpyxl**
+    License: MIT
+    Copyright (c) 2010 openpyxl
+
+*   **Gunicorn**
+    License: MIT
+    Copyright (c) 2009-2018 Benoit Chesneau and Gunicorn contributors
+
+## Disclaimers
+This software is provided "as is", without warranty of any kind, express or implied. 
+Please refer to the specific license of each dependency for more details regarding their use, distribution, and modification.

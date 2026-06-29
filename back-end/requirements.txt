@@ -1,0 +1,12 @@
+Flask
+Flask-CORS
+pypdf
+pdf2image
+Pillow
+Werkzeug
+gunicorn
+PyMuPDF
+pdf2docx
+python-pptx
+pdfplumber
+openpyxl
