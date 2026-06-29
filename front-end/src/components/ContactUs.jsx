@@ -25,10 +25,7 @@ export default function ContactUs({ setCurrentView }) {
             <span className="material-symbols-outlined text-primary">mail</span>
             <span><strong>Email:</strong> campusspend@gmail.com</span>
           </div>
-          <div className="flex items-center gap-3 text-on-surface dark:text-gray-200">
-            <span className="material-symbols-outlined text-primary">phone</span>
-            <span><strong>Phone:</strong> +91 8074982449</span>
-          </div>
+
 
         </div>
       </div>
