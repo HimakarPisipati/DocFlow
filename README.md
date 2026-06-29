@@ -103,8 +103,8 @@ Docflow bridges this gap by offering a cohesive ecosystem where users can merge,
 | **Frontend** | React 19, Vite, Tailwind CSS v4, PDF.js, PDF-lib, @hello-pangea/dnd |
 | **Backend** | Python 3, Flask, Werkzeug |
 | **Processing Libraries** | PyMuPDF, pypdf, pdf2image, pdf2docx, pdfplumber, Pillow |
-| **Deployment** | Vercel (Frontend), *(Backend Cloud Placeholder: Render/AWS/GCP)* |
-| **DevOps & Tools** | Git, GitHub Actions, Postman |
+| **Deployment** | Vercel (Frontend), *(Backend Cloud : Render/AWS/GCP)* |
+| **DevOps & Tools** | Git, GitHub Actions |
 
 ---
 
@@ -308,13 +308,13 @@ Distributed under the **GNU AGPL v3.0** License. See `LICENSE` for more informat
 
 <div align="center">
   
-  **Your Name**
+  **Himakar Pisipati**
   
   *Full Stack Software Engineer*
   
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/<your-linkedin>)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pisipatihimakar)
   [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HimakarPisipati)
-  [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+  [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pisipatihimakar.com)
   
 </div>
 
@@ -322,7 +322,7 @@ Distributed under the **GNU AGPL v3.0** License. See `LICENSE` for more informat
 
 ## 📬 Connect With Me
 
-If you have any questions, feel free to reach out via [LinkedIn](https://linkedin.com/in/<your-linkedin>) or drop an email!
+If you have any questions, feel free to reach out via [LinkedIn](https://linkedin.com/in/pisipatihimakar) or drop an email!
 
 ---
 
