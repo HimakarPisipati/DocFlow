@@ -2,9 +2,9 @@
   
   # 📄 Docflow
 
-  **A powerful, full-stack PDF manipulation and document workflow tool.**
+  **A powerful, privacy-first PDF manipulation and document workflow tool.**
 
-  *Docflow simplifies document processing by providing a seamless, robust, and secure way to manipulate, convert, and manage documents entirely from an intuitive web interface.*
+  *Docflow simplifies document processing with a relentless focus on security. By utilizing strict temporary storage for processing and guaranteeing **Zero Data Retention**, Docflow provides a seamless and robust way to manipulate, convert, and manage documents without ever compromising your privacy.*
 
   <br />
 
@@ -66,7 +66,7 @@
 In the modern digital workspace, users frequently struggle with disparate, disjointed tools to manage PDF files and document conversions. Many online tools compromise data privacy, limit file sizes, or offer poor user experiences characterized by overwhelming ads and slow processing times. There is a glaring need for an open-source, unified platform that handles heavy document manipulation securely and efficiently.
 
 ## 💡 Solution
-Docflow bridges this gap by offering a cohesive ecosystem where users can merge, split, extract, and convert documents in a frictionless environment. By leveraging a high-performance React frontend and a powerful Python/Flask processing engine, Docflow ensures that heavy lifting is done securely on the backend while providing a snappy, real-time experience to the end-user.
+Docflow bridges this gap by offering a cohesive ecosystem where users can merge, split, extract, and convert documents in a frictionless environment. What truly sets Docflow apart is its commitment to privacy: leveraging a high-performance React frontend and a powerful Python/Flask processing engine, it performs heavy lifting securely on the backend using strict temporary storage. Once your file is processed and downloaded, it is instantly destroyed, ensuring **Zero Data Retention**.
 
 ---
 
@@ -223,9 +223,9 @@ SECRET_KEY=<your_secret_key>
 
 ## 🛡️ Security Features
 
+*   **Zero Data Retention:** Files are processed in isolated memory or strict temporary directories and are permanently purged immediately after processing. We store absolutely nothing.
 *   **Input Validation:** Strict MIME-type checking and file size limits.
 *   **CORS Configuration:** Restricts API access to authorized frontend domains.
-*   **Secure File Handling:** Files are processed in isolated memory/temporary directories and purged post-processing.
 *   *(Future)* **Authentication & Authorization:** JWT-based user sessions.
 *   *(Future)* **Rate Limiting:** Prevents API abuse and DDoS attacks.
 
