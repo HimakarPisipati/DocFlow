@@ -1,14 +1,5 @@
 <div align="center">
   
-  <!-- Project Banner Placeholder -->
-  <img src="https://via.placeholder.com/1200x300?text=Docflow+Banner" alt="Docflow Banner" width="100%" />
-
-  <br />
-  <br />
-
-  <!-- Logo Placeholder -->
-  <img src="https://via.placeholder.com/150?text=Logo" alt="Docflow Logo" width="150" height="150" />
-
   # 📄 Docflow
 
   **A powerful, full-stack PDF manipulation and document workflow tool.**
@@ -29,18 +20,6 @@
   [![Repository Size](https://img.shields.io/github/repo-size/HimakarPisipati/DocFlow.svg)]()
   [![Deployment](https://img.shields.io/badge/Deployment-Live-success.svg)](https://docflow-2026.vercel.app/)
 
-  <br />
-
-  ### 🔗 Quick Links
-  
-  [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://docflow-2026.vercel.app/)
-  [![Backend API](https://img.shields.io/badge/⚙️_Backend_API-3776AB?style=for-the-badge&logo=python&logoColor=white)](#-api-endpoints)
-  [![API Documentation](https://img.shields.io/badge/📚_API_Docs-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)](#-api-endpoints)
-  [![Demo Video](https://img.shields.io/badge/🎥_Demo_Video-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](#-live-demo)
-  [![Documentation](https://img.shields.io/badge/📄_Documentation-00599C?style=for-the-badge&logo=readthedocs&logoColor=white)](#-overview)
-  [![Report Bug](https://img.shields.io/badge/🐞_Report_Bug-D22128?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HimakarPisipati/DocFlow/issues)
-  [![Request Feature](https://img.shields.io/badge/💡_Request_Feature-FAD000?style=for-the-badge&logo=github&logoColor=black)](https://github.com/HimakarPisipati/DocFlow/issues)
-
 </div>
 
 ---
@@ -53,13 +32,10 @@
   - [Solution](#-solution)
   - [Key Features](#-key-features)
   - [Screenshots](#-screenshots)
-  - [Demo GIF](#-demo-gif)
   - [Live Demo](#-live-demo)
   - [Tech Stack](#-tech-stack)
   - [Architecture](#-architecture)
   - [Folder Structure](#-folder-structure)
-  - [Database Schema](#-database-schema)
-  - [API Endpoints](#-api-endpoints)
   - [Installation](#-installation)
   - [Environment Variables](#-environment-variables)
   - [Running the Project](#-running-the-project)
@@ -100,37 +76,23 @@ Docflow bridges this gap by offering a cohesive ecosystem where users can merge,
 | :--- | :--- | :--- |
 | 🎨 **Modern Interface** - Clean, responsive Tailwind styling | 📑 **PDF Manipulation** - Merge, split, compress | 🔒 **Secure Processing** - Safe file handling |
 | 🖱️ **Drag & Drop** - Seamless file uploads | 🔄 **Format Conversion** - PDF to Word, Image to PDF | ⚡ **Async Architecture** - Non-blocking operations |
-| 📱 **Mobile Responsive** - Works on any device | 👁️ **OCR (Upcoming)** - Optical Character Recognition | 🧩 **Modular Design** - Highly extensible |
 | 🌙 **Dark Mode** - Built-in theme support | 📊 **Data Extraction** - Intelligent text parsing | 🚀 **Optimized Performance** - Fast render times |
 
 ---
 
 ## 📸 Screenshots
 
-| Landing Page | Dashboard |
+| Merge PDFs | Split PDF |
 | :---: | :---: |
-| <img src="https://via.placeholder.com/600x400?text=Landing+Page" alt="Landing Page" width="100%" /> | <img src="https://via.placeholder.com/600x400?text=Dashboard" alt="Dashboard" width="100%" /> |
-| **Upload Interface** | **Results & Analytics** |
-| <img src="https://via.placeholder.com/600x400?text=Upload+Interface" alt="Upload Interface" width="100%" /> | <img src="https://via.placeholder.com/600x400?text=Results" alt="Results" width="100%" /> |
-| **Mobile View** | **Dark Mode** |
-| <img src="https://via.placeholder.com/300x400?text=Mobile+View" alt="Mobile View" width="50%" /> | <img src="https://via.placeholder.com/600x400?text=Dark+Mode" alt="Dark Mode" width="100%" /> |
-
----
-
-## 🎬 Demo GIF
-
-<div align="center">
-  <img src="https://via.placeholder.com/800x450?text=Application+Demo+GIF" alt="Demo GIF" width="80%" />
-</div>
+| <img src="https://via.placeholder.com/600x400?text=Merge+PDFs" alt="Merge PDFs" width="100%" /> | <img src="https://via.placeholder.com/600x400?text=Split+PDF" alt="Split PDF" width="100%" /> |
+| **Word to PDF** | **Upload Interface** |
+| <img src="https://via.placeholder.com/600x400?text=Word+to+PDF" alt="Word to PDF" width="100%" /> | <img src="https://via.placeholder.com/600x400?text=Upload+Interface" alt="Upload Interface" width="100%" /> |
 
 ---
 
 ## 🌐 Live Demo
 
-- **Frontend Application:** [https://docflow-2026.vercel.app/](https://docflow-2026.vercel.app/)
-- **Backend API:** `<Backend-URL-Placeholder>`
-- **Swagger/OpenAPI Docs:** `<Swagger-URL-Placeholder>`
-- **Demo Video:** `<YouTube/Loom-URL-Placeholder>`
+- **DocFlow Web App:** [https://docflow-2026.vercel.app/](https://docflow-2026.vercel.app/)
 
 ---
 
@@ -141,8 +103,6 @@ Docflow bridges this gap by offering a cohesive ecosystem where users can merge,
 | **Frontend** | React 19, Vite, Tailwind CSS v4, PDF.js, PDF-lib, @hello-pangea/dnd |
 | **Backend** | Python 3, Flask, Werkzeug |
 | **Processing Libraries** | PyMuPDF, pypdf, pdf2image, pdf2docx, pdfplumber, Pillow |
-| **Database** | *(Placeholder for future DB setup: PostgreSQL / MongoDB)* |
-| **Authentication** | *(Placeholder: JWT / OAuth)* |
 | **Deployment** | Vercel (Frontend), *(Backend Cloud Placeholder: Render/AWS/GCP)* |
 | **DevOps & Tools** | Git, GitHub Actions, Postman |
 
@@ -187,26 +147,6 @@ Docflow/
 ```
 
 </details>
-
----
-
-## 🗄️ Database Schema
-
-<div align="center">
-  <img src="https://via.placeholder.com/600x400?text=Database+Schema+Diagram" alt="Database Schema Diagram" width="70%" />
-</div>
-
----
-
-## 🔌 API Endpoints
-
-| Method | Endpoint | Description | Auth Required |
-| :--- | :--- | :--- | :---: |
-| `POST` | `/api/v1/pdf/merge` | Merges multiple uploaded PDFs | ❌ |
-| `POST` | `/api/v1/pdf/split` | Splits a PDF based on page ranges | ❌ |
-| `POST` | `/api/v1/convert/pdf-to-word` | Converts PDF to DOCX format | ❌ |
-| `GET`  | `/api/v1/health` | Backend system health check | ❌ |
-| *(TBD)*| *(Future Auth Endpoints)*| *(Placeholder for user auth)* | ✅ |
 
 ---
 
@@ -312,7 +252,6 @@ SECRET_KEY=<your_secret_key>
 | :--- | :--- | :--- | :--- |
 | **Unit Testing** | `pytest` / `Jest` | `npm test` / `pytest` | 85% |
 | **Integration** | `pytest-flask` | `pytest tests/integration` | 78% |
-| **API Testing** | Postman | *(Collection Included)* | - |
 
 ---
 
@@ -369,15 +308,12 @@ Distributed under the **GNU AGPL v3.0** License. See `LICENSE` for more informat
 
 <div align="center">
   
-  <img src="https://via.placeholder.com/100?text=Author+Photo" alt="Author Photo" style="border-radius: 50%;" width="100" />
-  
   **Your Name**
   
   *Full Stack Software Engineer*
   
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/<your-linkedin>)
   [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HimakarPisipati)
-  [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://<your-portfolio-website>.com)
   [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
   
 </div>
