@@ -845,14 +845,7 @@ export default function PdfEditor({ file, onSave, onCancel }) {
   };
 
   const toggleFullscreen = () => {
-    const element = editorContainerRef.current;
-    if (!element) return;
-    if (!document.fullscreenElement) {
-      element.requestFullscreen().then(() => setIsFullscreen(true)).catch(err => console.error(err));
-    } else {
-      document.exitFullscreen();
-      setIsFullscreen(false);
-    }
+    setIsFullscreen(!isFullscreen);
   };
 
   const handleSave = async () => {
@@ -1121,7 +1114,7 @@ export default function PdfEditor({ file, onSave, onCancel }) {
   return (
     <div 
       ref={editorContainerRef} 
-      className="flex flex-col h-[85vh] bg-surface dark:bg-slate-900 rounded-xl overflow-hidden shadow-2xl border border-outline-variant/30 text-on-surface dark:text-gray-100"
+      className={`flex flex-col bg-surface dark:bg-slate-900 overflow-hidden text-on-surface dark:text-gray-100 ${isFullscreen ? 'fixed inset-0 z-[9999] rounded-none' : 'h-[85vh] rounded-xl shadow-2xl border border-outline-variant/30'}`}
     >
       {/* Hidden File Input for general images */}
       <input
